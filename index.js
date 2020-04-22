@@ -43,31 +43,6 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	}
 
 
-(lib.藍條 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// 圖層_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#18187F").s().p("A5mFKIH4qTMArVAAAIn4KTg");
-	this.shape.setTransform(134.775,83.275);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#18187F").s().p("A3oFKIHRqTMAoAAAAInRKTg");
-	this.shape_1.setTransform(-116.95,83.3);
-
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#18187F").s().p("A+SFKIIaqTMA0LAAAIgSKTg");
-	this.shape_2.setTransform(420.6,103.9);
-
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#18187F").s().p("A90FKIAmqTMA7DAAAIoaKTg");
-	this.shape_3.setTransform(-423.625,103.9);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.藍條, new cjs.Rectangle(-614.5,50.3,1229,86.60000000000001), null);
-
-
 (lib.邊框 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -1294,6 +1269,31 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
 
 }).prototype = getMCSymbolPrototype(lib.ball, new cjs.Rectangle(-10.5,-10.5,21,21), null);
+
+
+(lib.遊戲封面藍條 = function(mode,startPosition,loop) {
+	this.initialize(mode,startPosition,loop,{});
+
+	// 圖層_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#18187F").s().p("A5mFKIH4qTMArVAAAIn4KTg");
+	this.shape.setTransform(134.775,83.275);
+
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#18187F").s().p("A3oFKIHRqTMAoAAAAInRKTg");
+	this.shape_1.setTransform(-116.95,83.3);
+
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f("#18187F").s().p("A+SFKIIaqTMA0LAAAIgSKTg");
+	this.shape_2.setTransform(420.6,103.9);
+
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("#18187F").s().p("A9EFKIAAqTMA6JAAAIoaKTg");
+	this.shape_3.setTransform(-418.825,103.9);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+
+}).prototype = getMCSymbolPrototype(lib.遊戲封面藍條, new cjs.Rectangle(-604.9,50.3,1219.4,86.60000000000001), null);
 
 
 (lib.遊戲封面LOGO字體 = function(mode,startPosition,loop) {
@@ -6836,18 +6836,6 @@ p.nominalBounds = new cjs.Rectangle(-10.5,-10.5,21.1,21.1);
 p.nominalBounds = new cjs.Rectangle(-118.9,-24.9,209,59);
 
 
-(lib.遊戲封面藍條 = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
-
-	// 圖層_1
-	this.instance = new lib.藍條();
-	this.instance.parent = this;
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-}).prototype = getMCSymbolPrototype(lib.遊戲封面藍條, new cjs.Rectangle(-614.5,50.3,1229,86.60000000000001), null);
-
-
 (lib.遊戲封面enterbtn = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
@@ -6947,7 +6935,7 @@ p.nominalBounds = new cjs.Rectangle(-105.9,-28.9,196,56);
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(29));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-547,-401.9,1229,800);
+p.nominalBounds = new cjs.Rectangle(-537.4,-401.9,1219.4,800);
 
 
 (lib.遊戲封面 = function(mode,startPosition,loop) {
@@ -7055,7 +7043,7 @@ p.nominalBounds = new cjs.Rectangle(-547,-401.9,1229,800);
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(54));
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-547,-401.9,1229,800);
+p.nominalBounds = new cjs.Rectangle(-537.4,-401.9,1219.4,800);
 
 
 (lib.遊戲畫面不動 = function(mode,startPosition,loop) {
@@ -8094,7 +8082,7 @@ p.nominalBounds = new cjs.Rectangle(-878.1,-1163.5,1696.6,1634);
 	this.all_mc.setTransform(411,542.05,1,1,0,0,0,-125.4,140.1);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance}]},109).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.instance}]},1).to({state:[{t:this.all_mc}]},1).wait(55));
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(109).to({_off:false},0).wait(1).to({regX:67.5,regY:-1.9,x:603.9,y:1128.9},0).wait(1).to({y:1047.6},0).wait(1).to({y:971.1},0).wait(1).to({y:899.4},0).wait(1).to({y:832.55},0).wait(1).to({y:770.5},0).wait(1).to({y:713.2},0).wait(1).to({y:660.75},0).wait(1).to({y:613.1},0).wait(1).to({y:570.25},0).wait(1).to({y:532.2},0).wait(1).to({y:499},0).wait(1).to({y:470.55},0).wait(1).to({y:446.9},0).wait(1).to({y:428.1},0).wait(1).to({y:414.1},0).wait(1).to({regX:-125.4,regY:140.1,x:411,y:546.9},0).to({_off:true,y:542.05},1).wait(55));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(109).to({_off:false},0).wait(1).to({regX:72.3,regY:-1.9,x:608.7,y:1128.9},0).wait(1).to({y:1047.6},0).wait(1).to({y:971.1},0).wait(1).to({y:899.4},0).wait(1).to({y:832.55},0).wait(1).to({y:770.5},0).wait(1).to({y:713.2},0).wait(1).to({y:660.75},0).wait(1).to({y:613.1},0).wait(1).to({y:570.25},0).wait(1).to({y:532.2},0).wait(1).to({y:499},0).wait(1).to({y:470.55},0).wait(1).to({y:446.9},0).wait(1).to({y:428.1},0).wait(1).to({y:414.1},0).wait(1).to({regX:-125.4,regY:140.1,x:411,y:546.9},0).to({_off:true,y:542.05},1).wait(55));
 
 	// G2遊戲
 	this.instance_1 = new lib.遊戲畫面();
@@ -8118,9 +8106,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_35414O02PPH.png?1587452346400", id:"_35414O02PPH"},
-		{src:"images/Image.png?1587452346400", id:"Image"},
-		{src:"images/LOGO字體.png?1587452346400", id:"LOGO字體"}
+		{src:"images/_35414O02PPH.png?1587533693055", id:"_35414O02PPH"},
+		{src:"images/Image.png?1587533693055", id:"Image"},
+		{src:"images/LOGO字體.png?1587533693055", id:"LOGO字體"}
 	],
 	preloads: []
 };

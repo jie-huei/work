@@ -8041,9 +8041,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_35414O02PPH.png", id:"_35414O02PPH"},
-		{src:"images/Image.png", id:"Image"},
-		{src:"images/LOGO字體.png", id:"LOGO字體"}
+		{src:"images/_35414O02PPH.png?1587533727919", id:"_35414O02PPH"},
+		{src:"images/Image.png?1587533727919", id:"Image"},
+		{src:"images/LOGO字體.png?1587533727919", id:"LOGO字體"}
 	],
 	preloads: []
 };
